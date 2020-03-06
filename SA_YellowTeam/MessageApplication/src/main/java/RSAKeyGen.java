@@ -26,21 +26,4 @@ public class RSAKeyGen {
     public PublicKey getPublicKey() {
         return publicKey;
     }
-
-    public void writeKeyToFile(String path, byte[] key) throws IOException {
-
-        File filePath = new File(path);
-
-
-        FileOutputStream outputStream = new FileOutputStream(filePath);
-        outputStream.write(key);
-        outputStream.flush();
-        outputStream.close();
-
-
-        /*BufferedWriter writer = new BufferedWriter(new FileWriter(f));
-        writer.write(key);
-        writer.flush();
-        writer.close();*/
-    }
 }

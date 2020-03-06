@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a2d7b5e-2d73-485b-a0f8-6c99b7c08ef6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GuiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/KeyToFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SA_YellowTeam/.idea/SA_YellowTeam.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SA_YellowTeam/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SA_YellowTeam/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SA_YellowTeam/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SA_YellowTeam/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SA_YellowTeam/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SA_YellowTeam/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SA_YellowTeam/MessageApplication/MessageApplication.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SA_YellowTeam/MessageApplication/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SA_YellowTeam/MessageApplication/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SA_YellowTeam/MessageApplication/src/main/java/BlowfishKeyGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SA_YellowTeam/MessageApplication/src/main/java/GUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SA_YellowTeam/MessageApplication/src/main/java/RSAKeyGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SA_YellowTeam/MessageApplication/src/main/java/KeyToFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BlowfishKeyGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BlowfishKeyGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestPublicKeyGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestPublicKeyGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BlowfishKeyGen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BlowfishKeyGen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestPublicKeyGen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestPublicKeyGen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SA_YellowTeam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SA_YellowTeam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SA_YellowTeam/MessageApplication/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SA_YellowTeam/MessageApplication/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SA_YellowTeam/MessageApplication/src/main/java/RSAKeyGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SA_YellowTeam/MessageApplication/src/main/java/RSAKeyGen.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -182,7 +165,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583525371197" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583526539708" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SA_YellowTeam" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -234,12 +217,12 @@
       <workItem from="1583235595692" duration="6891000" />
       <workItem from="1583422883794" duration="1277000" />
       <workItem from="1583510127630" duration="8623000" />
-      <workItem from="1583524420444" duration="880000" />
+      <workItem from="1583524420444" duration="1236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17671000" />
+    <option name="totallyTimeSpent" value="18027000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />

@@ -27,14 +27,4 @@ public class BlowfishKeyGen {
     public SecretKey getSecretKey() {
         return secretKey;
     }
-
-    public void writeToFile(String path, byte[] key) throws IOException {
-        File filePath = new File(path);
-
-        FileOutputStream outputStream = new FileOutputStream(filePath);
-        outputStream.write(key);
-        outputStream.flush();
-        outputStream.close();
-    }
-
 }
