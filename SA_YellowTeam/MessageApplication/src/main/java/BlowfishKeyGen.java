@@ -1,8 +1,9 @@
+import javax.crypto.*;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.security.*;
-import javax.crypto.*;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
 
 public class BlowfishKeyGen {
     private KeyGenerator keyGenerator;

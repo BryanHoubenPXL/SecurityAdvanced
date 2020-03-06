@@ -2,13 +2,13 @@ import java.security.*;
 import javax.crypto.*;
 import java.io.*;
 
-public class TestPublicKeyGen {
+public class RSAKeyGen {
     private KeyPairGenerator generator;
     private KeyPair keyPair;
     private PrivateKey privateKey;
     private PublicKey publicKey;
 
-    public TestPublicKeyGen(int keyLength) throws NoSuchAlgorithmException {
+    public RSAKeyGen(int keyLength) throws NoSuchAlgorithmException {
         this.generator = KeyPairGenerator.getInstance("RSA");
         this.generator.initialize(keyLength);
     }
@@ -44,5 +44,3 @@ public class TestPublicKeyGen {
         writer.close();*/
     }
 }
-
-
