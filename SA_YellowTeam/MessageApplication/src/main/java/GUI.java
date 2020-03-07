@@ -1,8 +1,13 @@
+import javax.crypto.BadPaddingException;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
 import javax.swing.*;
 import javax.swing.JButton;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
 
 public class GUI {
 
@@ -30,8 +35,26 @@ public class GUI {
                 System.out.println("start");
                 String msg = textArea.getText();
                 try {
-                    writeMessageToFile(msg, "src\\main\\resources\\msg.txt");
-                } catch (IOException e1) {
+                    //writeMessageToFile(msg, "src\\main\\resources\\msg.txt");
+                    System.out.println("Creating keypair");
+                    RSAKeyGen keys1 = new RSAKeyGen(1024);
+                    keys1.createKeys();
+                    System.out.println("Keypair created");
+                    System.out.println("Encrypting data");
+                    EncryptData encryptor = new EncryptData();
+                    encryptor.encrypt(msg, keys1.getPublicKey(), keys1.getPrivateKey());
+                    System.out.println("Data encrypted");
+
+
+                } catch (NoSuchAlgorithmException e1) {
+                    e1.printStackTrace();
+                } catch (NoSuchPaddingException e1) {
+                    e1.printStackTrace();
+                } catch (BadPaddingException e1) {
+                    e1.printStackTrace();
+                } catch (IllegalBlockSizeException e1) {
+                    e1.printStackTrace();
+                } catch (InvalidKeyException e1) {
                     e1.printStackTrace();
                 }
             }
