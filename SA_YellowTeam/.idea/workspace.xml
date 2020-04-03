@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07c91d62-7325-4f08-bbdc-faf21e1f1840" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MessageApplication/src/main/java/EncryptData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MessageApplication/src/main/java/KeysFromFiles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SA_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SA_Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SA_Test/target/classes/msg.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MessageApplication/src/main/java/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MessageApplication/src/main/java/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/MessageApplication/src/main/java/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MessageApplication/src/main/java/KeyToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/MessageApplication/src/main/java/KeyToFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MessageApplication/src/main/resources/AS_Keys/privateKey.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MessageApplication/src/main/resources/AS_Keys/privateKey.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MessageApplication/src/main/resources/AS_Keys/publicKey.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MessageApplication/src/main/resources/AS_Keys/publicKey.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MessageApplication/src/main/resources/S_Keys/symKey.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MessageApplication/src/main/resources/S_Keys/symKey.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MessageApplication/target/classes/AS_Keys/privateKey.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MessageApplication/target/classes/AS_Keys/privateKey.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MessageApplication/target/classes/AS_Keys/publicKey.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MessageApplication/target/classes/AS_Keys/publicKey.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MessageApplication/target/classes/S_Keys/symKey.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MessageApplication/target/classes/S_Keys/symKey.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/MessageApplication/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/KeysFromFiles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="170">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -35,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/BlowfishKeyGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="357">
               <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -49,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/RSAKeyGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="357">
               <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/KeyToFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="17">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/EncryptData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+            <state relative-caret-position="289">
+              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,7 +122,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="627" />
+    <option name="x" value="625" />
     <option name="y" value="85" />
     <option name="width" value="975" />
     <option name="height" value="1050" />
@@ -174,13 +175,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SA_YellowTeam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SA_YellowTeam" type="462c0819:PsiDirectoryNode" />
-              <item name="MessageApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -191,12 +185,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583613656753" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585921333622" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -244,17 +238,18 @@
       <workItem from="1583524410620" duration="67000" />
       <workItem from="1583524496273" duration="3591000" />
       <workItem from="1583533256995" duration="3805000" />
+      <workItem from="1583767321351" duration="650000" />
+      <workItem from="1585920119011" duration="1090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7465000" />
+    <option name="totallyTimeSpent" value="9205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33825505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.347651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -295,48 +290,6 @@
     <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/resources/AS_Keys/privateKey.txt" />
     <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/resources/AS_Keys/publicKey.txt" />
     <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/resources/S_Keys/symKey.txt" />
-    <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/KeysFromFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/BlowfishKeyGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/KeyToFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/RSAKeyGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -347,10 +300,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/KeysFromFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/BlowfishKeyGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/RSAKeyGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/KeyToFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        <state relative-caret-position="289">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -360,7 +355,7 @@
     <entry file="file://$PROJECT_DIR$/MessageApplication/src/main/java/EncryptData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
